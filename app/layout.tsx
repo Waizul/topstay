@@ -1,18 +1,22 @@
-import './globals.css'
+import Navbar from "./components/navbar/Navbar";
+import "./globals.css";
 
 export const metadata = {
-  title: 'Top Stay',
-  description: 'Top Stay great app for renting and buying a property',
-}
+	title: "Top Stay",
+	description: "Top Stay great app for renting and buying a property",
+};
 
 export default function RootLayout({
-  children,
+	children,
 }: {
-  children: React.ReactNode
+	children: React.ReactNode;
 }) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  )
+	return (
+		<html lang='en'>
+			<body>
+				<Navbar />
+				{children}
+			</body>
+		</html>
+	);
 }

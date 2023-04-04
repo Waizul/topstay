@@ -13,15 +13,15 @@ export async function fetchApi(url: string) {
 			"X-RapidAPI-Host": "bayut.p.rapidapi.com",
 		},
 	};
-	const res = await axios
-		.request(options)
-		.then(function ({ data }: { data: PropertyListType }) {
-			return data?.hits;
-		})
-		.catch(function (error: any) {
-			console.error(error);
-		});
+	// const res = await axios
+	// 	.request(options)
+	// 	.then(function ({ data }: { data: PropertyListType }) {
+	// 		return data?.hits;
+	// 	})
+	// 	.catch(function (error: any) {
+	// 		console.error(error);
+	// 	});
 
-	// const res = data.hits.slice(0,6);
+	const res = data.hits.slice(0,6);
 	return res;
 }
