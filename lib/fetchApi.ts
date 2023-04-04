@@ -1,14 +1,27 @@
+import { PropertyListType } from "@/types";
 import axios from "axios";
+import { data } from "../data";
 
 export const baseUrl = "https://bayut.p.rapidapi.com";
 
-export const fetchApi = async (url: string) => {
-	const { data } = await axios.get(url, {
+export async function fetchApi(url: string) {
+	const options = {
+		method: "GET",
+		url: url,
 		headers: {
-			"X-RapidAPI-Key": "8defb3eacbmsh5a9365d462bc3fap1d22d8jsn0ebacd943669",
+			"X-RapidAPI-Key": process.env.RAPID_API_KEY_2,
 			"X-RapidAPI-Host": "bayut.p.rapidapi.com",
 		},
-	});
+	};
+	const res = await axios
+		.request(options)
+		.then(function ({ data }: { data: PropertyListType }) {
+			return data?.hits;
+		})
+		.catch(function (error: any) {
+			console.error(error);
+		});
 
-	return data;
-};
+	// const res = data.hits.slice(0,6);
+	return res;
+}

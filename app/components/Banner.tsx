@@ -1,4 +1,4 @@
-import { Banner } from "@/types";
+import { BannerType } from "@/types";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -11,7 +11,7 @@ const Banner = ({
 	buttonText,
 	linkName,
 	imageUrl,
-}: Banner) => {
+}: BannerType) => {
 	return (
 		<div className="flex flex-wrap items-center justify-center m-10">
 			<Image src={imageUrl} alt='' width={500} height={300} />
