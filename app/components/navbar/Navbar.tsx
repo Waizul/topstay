@@ -1,8 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { FiSearch } from "react-icons/fi";
+import { FiSearch, FiKey } from "react-icons/fi";
+import { FcHome, FcAbout } from "react-icons/fc";
+
 import "./navbar.css";
+import Link from "next/link";
 
 const Navbar = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -11,27 +14,26 @@ const Navbar = () => {
 		<nav className='w-full max-w-[1100px] h-[60px] mx-auto border-b-2 border-blue-200'>
 			<div className='h-full flex flex-col justify-center px-2 lg:px-0'>
 				<div className='f-full flex items-center justify-between text-sky-500'>
-					<div className=' text-lg font-bold cursor-pointer'>TopStay</div>
-					<ul className='hidden md:flex gap-4'>
+					<div className=' text-lg font-bold cursor-pointer'>
+						<Link href='/'>TopStay</Link>
+					</div>
+					<ul className='hidden md:flex items-center gap-4 pr-4'>
 						<li className='cursor-pointer transition-all ease-in hover:text-red-400'>
-							Home
+							<Link href='/'>Home</Link>
 						</li>
 						<li className='cursor-pointer transition-all ease-in hover:text-red-400'>
-							Buy Property
+							<Link href='/search?purpose=for-sale'>Buy Property</Link>
 						</li>
 						<li className='cursor-pointer transition-all ease-in hover:text-red-400'>
-							Rent Property
+							<Link href='/search?purpose=for-rent'>Rent Property</Link>
+						</li>
+						<li className='cursor-pointer transition-all ease-in hover:text-red-400'>
+							<Link href='/search' className='flex items-center gap-1'>
+								<FiSearch />
+								Search
+							</Link>
 						</li>
 					</ul>
-
-					<div className='flex items-center gap-2 border-2 border-blue-200 px-2 py-1 rounded-md'>
-						<FiSearch />
-						<input
-							type='text'
-							placeholder='Search property'
-							className='outline-none text-black'
-						/>
-					</div>
 
 					<div className='relative md:hidden'>
 						<button
@@ -49,14 +51,35 @@ const Navbar = () => {
 						{menuOpen && (
 							<div className='absolute top-10 right-0 text-sky-500 bg-white w-screen h-[calc(100vh-50px)]'>
 								<ul className='h-full flex flex-col items-center justify-center gap-4 text-xl'>
-									<li className='w-[130px] cursor-pointer transition-all ease-in hover:font-medium hover:text-red-400'>
-										Home
+									<li className='w-[145px] cursor-pointer transition-all ease-in hover:text-red-400'>
+										<Link href='/search' className='flex items-center gap-1'>
+											<FiSearch />
+											Search
+										</Link>
 									</li>
-									<li className='w-[130px] cursor-pointer transition-all ease-in hover:font-medium hover:text-red-400'>
-										Buy Property
+									<li className='w-[145px] cursor-pointer transition-all ease-in hover:text-red-400'>
+										<Link href='/' className='flex items-center gap-1'>
+											<FcHome />
+											Home
+										</Link>
 									</li>
-									<li className='w-[130px] cursor-pointer transition-all ease-in hover:font-medium hover:text-red-400'>
-										Rent Property
+									<li className='w-[145px] cursor-pointer transition-all ease-in  hover:text-red-400'>
+										<Link
+											href='/search?purpose=for-sale'
+											className='flex items-center gap-1'
+										>
+											<FcAbout />
+											Buy Property
+										</Link>
+									</li>
+									<li className='w-[145px] cursor-pointer transition-all ease-in  hover:text-red-400'>
+										<Link
+											href='/search?purpose=for-rent'
+											className='flex items-center gap-1'
+										>
+											<FcAbout />
+											Rent Property
+										</Link>
 									</li>
 								</ul>
 							</div>
