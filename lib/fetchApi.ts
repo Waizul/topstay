@@ -1,27 +1,40 @@
-import { PropertyListType } from "@/types";
+import { PropertyDetailsType, PropertyListType} from "@/types";
 import axios from "axios";
-import { data } from "../data";
+import { data, propertyDeatils } from "../data";
 
 export const baseUrl = "https://bayut.p.rapidapi.com";
 
-export async function fetchApi(url: string) {
-	const options = {
-		method: "GET",
-		url: url,
-		headers: {
-			"X-RapidAPI-Key": process.env.RAPID_API_KEY_2,
-			"X-RapidAPI-Host": "bayut.p.rapidapi.com",
-		},
-	};
+const headers = {
+	"X-RapidAPI-Key": process.env.RAPID_API_KEY_2,
+	"X-RapidAPI-Host": "bayut.p.rapidapi.com",
+};
+
+export async function fetchProperties(url: string) {
 	// const res = await axios
-	// 	.request(options)
+	// 	.get(url, { headers })
 	// 	.then(function ({ data }: { data: PropertyListType }) {
-	// 		return data?.hits;
+	// 		return data;
 	// 	})
 	// 	.catch(function (error: any) {
 	// 		console.error(error);
 	// 	});
 
-	const res = data.hits.slice(0,6);
+	const res = data
+
+	return res?.hits.slice(0, 6);
+}
+
+export async function fetchPropertyDetails(url: string) {
+	// const res = await axios
+	// 	.get(url, { headers })
+	// 	.then(function ({ data }: { data: PropertyDetailsType }) {
+	// 		return data;
+	// 	})
+	// 	.catch(function (error: any) {
+	// 		console.error(error);
+	// 	});
+
+	const res = propertyDeatils;
+
 	return res;
 }

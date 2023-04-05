@@ -8150,3 +8150,208 @@ export const data = {
 		'filters=purpose:"for-rent" AND rentFrequency:"monthly" AND ( location.externalID:"5002" OR location.externalID:"6020" ) AND category.externalID:"4" &hitsPerPage=25&page=0',
 	processingTimeMS: 4,
 };
+
+
+
+//------------------------------//
+export const propertyDeatils = {
+  "id": 2204478,
+  "objectID": 2204478,
+  "ownerID": 960420,
+  "userExternalID": "960420",
+  "sourceID": 1,
+  "state": "inactive",
+  "geography": {
+    "lat": 25.124783,
+    "lng": 55.153324
+  },
+  "purpose": "for-sale",
+  "price": 530000000,
+  "product": "premium",
+  "productLabel": "default",
+  "rentFrequency": null,
+  "referenceNumber": "1998-Rp-S-0009",
+  "permitNumber": "7181198593",
+  "title": "Build your 5 Star Resort on the Beach, Palm Jumeirah",
+  "title_l1": "ارض لبناء منتجع في نخلة جميرا",
+  "description": "RARE Opportunity to Build a resort on the Palm Jumeirah with beach access and panoramic sea view \nYou can build 7 floors resort mixed between hotel or hotel apartments\nWhat the benefits\nwhat is the construction cost\nwhat is the approximate income for the hotel\nwhat is the value of the hotel after completion\n\nIf you are an investor or International investment company, contact us for full presentation and ready business plan for this opportunity \n\n\n*Note: The pictures is sample of what you can build on this plot at the same area location\n\nAyham Jbara\nManzel Kareem",
+  "description_l1": "فرصة نادرة\nيمكنك تملك ارض لبناء منتجع في نخلة جميرا مع شاطئ وإطلالة بانورامية على البحر\nيمكنك بناء منتجع 7 طوابق مختلط بين فندق او شقق فندقية\nما الفوائد\nما هي تكلفة البناء\nما هو الدخل التقريبي للفندق  بعد الانتهاء\nما هي قيمة الفندق بعد الانتهاء\n\n\nإذا كنت مستثمرًا أو شركة استثمار دولية ، فاتصل بنا للحصول على عرض تقديمي كامل وخطة عمل جاهزة لهذا المشروع\n* ملاحظة: الصور هي عينة لما يمكنك بناءه على هذه الارض في نفس  المنطقة\n\nأيهم جبارة\nمنزل كريم",
+  "externalID": "4937770",
+  "slug": "build-your-5-star-resort-on-the-beach-palm-jumeirah-4937770",
+  "slug_l1": "build-your-5-star-resort-on-the-beach-palm-jumeirah-4937770",
+  "location": [
+    {
+      "id": 1,
+      "level": 0,
+      "externalID": "5001",
+      "name": "UAE",
+      "name_l1": "الإمارات",
+      "slug": "/uae",
+      "slug_l1": "/uae"
+    },
+    {
+      "id": 2,
+      "level": 1,
+      "externalID": "5002",
+      "name": "Dubai",
+      "name_l1": "دبي",
+      "slug": "/dubai",
+      "slug_l1": "/dubai"
+    },
+    {
+      "id": 14,
+      "level": 2,
+      "externalID": "5460",
+      "name": "Palm Jumeirah",
+      "name_l1": "نخلة جميرا",
+      "slug": "/dubai/palm-jumeirah",
+      "slug_l1": "/dubai/palm-jumeirah"
+    },
+    {
+      "id": 285,
+      "level": 3,
+      "externalID": "8902",
+      "name": "The Crescent",
+      "name_l1": "ذا كريسنت",
+      "slug": "/dubai/palm-jumeirah/the-crescent",
+      "slug_l1": "/dubai/palm-jumeirah/the-crescent"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "level": 0,
+      "externalID": "1",
+      "name": "Residential",
+      "name_l1": "سكني",
+      "slug": "residential",
+      "slug_l1": "residential",
+      "nameSingular": "Residential",
+      "nameSingular_l1": "سكني"
+    },
+    {
+      "id": 11,
+      "level": 1,
+      "externalID": "14",
+      "name": "Plots",
+      "name_l1": "اراضي سكنية",
+      "slug": "residential-plots",
+      "slug_l1": "residential-plots",
+      "nameSingular": "Plot",
+      "nameSingular_l1": "ارض سكنية"
+    }
+  ],
+  "createdAt": 1609632442,
+  "approvedAt": 1609632442,
+  "updatedAt": 1632407610,
+  "touchedAt": 1634223111.30168,
+  "reactivatedAt": 1609632442,
+  "rooms": 0,
+  "baths": 0,
+  "area": 56670.854400000004,
+  "score": 100,
+  "score_l1": 100,
+  "coverPhoto": {
+    "id": 110798997,
+    "externalID": "103391151",
+    "title": "Palm Jumeirah",
+    "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/110798997/d9446cee36ba4f839c8fedd0e0b52208",
+    "orderIndex": 0,
+    "nimaScore": 5.999995438928998,
+    "main": true
+  },
+  "photoCount": 3,
+  "videoCount": 0,
+  "panoramaCount": 0,
+  "photos": [
+    {
+      "id": 110798997,
+      "externalID": "103391151",
+      "title": "Palm Jumeirah",
+      "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/110798997/d9446cee36ba4f839c8fedd0e0b52208",
+      "orderIndex": 0,
+      "nimaScore": 5.999995438928998
+    },
+    {
+      "id": 110799000,
+      "externalID": "103391152",
+      "title": "Build your 5 Star Resort on the Beach",
+      "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/110799000/13c5ddeb3710480ab040480678519575",
+      "orderIndex": 1,
+      "nimaScore": 5.969393613838337
+    },
+    {
+      "id": 110799002,
+      "externalID": "103391153",
+      "title": "Palm Jumeirah",
+      "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/110799002/8ab6592e4ea7409fb05af756b7b80a03",
+      "orderIndex": 2,
+      "nimaScore": 5.995129640790738
+    }
+  ],
+  "floorPlans": [],
+  "videos": [],
+  "panoramas": [],
+  "amenities": [],
+  "phoneNumber": {
+    "mobile": "+971585768009",
+    "phone": "+97143433992",
+    "whatsapp": "971585768009",
+    "proxyMobile": "+971522794094",
+    "phoneNumbers": [
+      "+97143433992"
+    ],
+    "mobileNumbers": [
+      "+971585768009"
+    ]
+  },
+  "contactName": "Ayham Jbara",
+  "agency": {
+    "id": 7053698,
+    "objectID": 7053698,
+    "name": "Manzel Kareem Real Estate",
+    "name_l1": "منزل كريم للعقارات",
+    "externalID": "8055",
+    "product": "premium",
+    "productScore": 2,
+    "licenses": [
+      {
+        "number": "12938",
+        "authority": "RERA"
+      },
+      {
+        "number": "707807",
+        "authority": "DED"
+      }
+    ],
+    "logo": {
+      "id": 27681814,
+      "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/27681814/9c7b944fa4344803a4cc318dd6160c78"
+    },
+    "slug": "manzel-kareem-real-estate-8055",
+    "slug_l1": "manzel-kareem-real-estate-8055",
+    "tier": 4
+  },
+  "active": false,
+  "hasExactGeography": true,
+  "verification": {
+    "status": "unverified",
+    "type": null,
+    "eligible": false,
+    "comment": null,
+    "updatedAt": 1609631099.23548,
+    "verifiedAt": null,
+    "visitedAt": null
+  },
+  "isVerified": false,
+  "completionStatus": "completed",
+  "randBoostScore": 18,
+  "randBoostScore_l1": 18,
+  "furnishingStatus": null,
+  "extraFields": null,
+  "type": "property",
+  "cityLevelScore": 3,
+  "indyScore": 18,
+  "indyScore_l1": 18,
+  "hasMatchingFloorPlans": false
+}

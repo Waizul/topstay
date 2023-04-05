@@ -12,6 +12,7 @@ export type BannerType = {
 };
 
 type CoverPhoto = {
+	title: null;
 	url: string;
 };
 
@@ -20,6 +21,17 @@ type Agency = {
 	logo: {
 		url: string;
 	};
+};
+
+type Location = {
+	level: number;
+	name: string;
+	slug: string;
+};
+
+type Category = {
+	name: string;
+	slug: string;
 };
 
 export type PropertyType = {
@@ -58,5 +70,46 @@ export type PropertyType = {
 };
 
 export type PropertyListType = {
-	hits?: PropertyType[];
+	hits: PropertyType[];
+};
+
+export type PropertyDetailsType = {
+	id: number;
+	state: string;
+	geography: {
+		lat: number;
+		lng: number;
+	};
+	purpose: string;
+	price: number;
+	product: string;
+	rentFrequency: null;
+	title: string;
+	description: string;
+	externalID: string;
+	slug: string;
+	location: Location[];
+	category: Category[];
+	rooms: number;
+	baths: number;
+	area: number;
+	score: number;
+	coverPhoto: CoverPhoto;
+	photos: CoverPhoto[];
+	floorPlans: Array;
+	amenities: Array;
+	phoneNumber: {
+		mobile: string;
+		phone: string;
+		whatsapp: string;
+	};
+	contactName: string;
+	agency: Agency;
+	isVerified: boolean;
+	completionStatus: string;
+	furnishingStatus: null;
+	extraFields: null;
+	type: string;
+	cityLevelScore: 3;
+	hasMatchingFloorPlans: boolean;
 };

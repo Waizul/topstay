@@ -1,25 +1,22 @@
-import Image from "next/image";
 import { Inter } from "next/font/google";
 import Banner from "./components/Banner";
-import { baseUrl, fetchApi } from "@/lib/fetchApi";
+import { baseUrl, fetchProperties } from "@/lib/fetchApi";
 import Property from "./components/Property";
-import {PropertyType } from "@/types";
-import { use } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default async function Home() {
-	const propertyForSale = await fetchApi(
+	const propertyForSale = await fetchProperties(
 		`${baseUrl}/properties/list?locationExternalIDs=5002&purpose=for-sale&hitsPerPage=6`
 	);
 
-	const propertyForRent = await fetchApi(
+	const propertyForRent = await fetchProperties(
 		`${baseUrl}/properties/list?locationExternalIDs=5002&purpose=for-rent&hitsPerPage=6`
 	);
 
 	// console.log("propertyForRent", propertyForRent);
 	return (
-		<main className="w-full max-w-[1100px] mx-auto">
+		<main className='w-full max-w-[1100px] mx-auto'>
 			<Banner
 				purpose='RENT A HOME'
 				title1='Rental Homes for'
