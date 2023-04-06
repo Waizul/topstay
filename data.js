@@ -8151,207 +8151,1060 @@ export const data = {
 	processingTimeMS: 4,
 };
 
-
-
 //------------------------------//
 export const propertyDeatils = {
-  "id": 2204478,
-  "objectID": 2204478,
-  "ownerID": 960420,
-  "userExternalID": "960420",
-  "sourceID": 1,
-  "state": "inactive",
-  "geography": {
-    "lat": 25.124783,
-    "lng": 55.153324
-  },
-  "purpose": "for-sale",
-  "price": 530000000,
-  "product": "premium",
-  "productLabel": "default",
-  "rentFrequency": null,
-  "referenceNumber": "1998-Rp-S-0009",
-  "permitNumber": "7181198593",
-  "title": "Build your 5 Star Resort on the Beach, Palm Jumeirah",
-  "title_l1": "ارض لبناء منتجع في نخلة جميرا",
-  "description": "RARE Opportunity to Build a resort on the Palm Jumeirah with beach access and panoramic sea view \nYou can build 7 floors resort mixed between hotel or hotel apartments\nWhat the benefits\nwhat is the construction cost\nwhat is the approximate income for the hotel\nwhat is the value of the hotel after completion\n\nIf you are an investor or International investment company, contact us for full presentation and ready business plan for this opportunity \n\n\n*Note: The pictures is sample of what you can build on this plot at the same area location\n\nAyham Jbara\nManzel Kareem",
-  "description_l1": "فرصة نادرة\nيمكنك تملك ارض لبناء منتجع في نخلة جميرا مع شاطئ وإطلالة بانورامية على البحر\nيمكنك بناء منتجع 7 طوابق مختلط بين فندق او شقق فندقية\nما الفوائد\nما هي تكلفة البناء\nما هو الدخل التقريبي للفندق  بعد الانتهاء\nما هي قيمة الفندق بعد الانتهاء\n\n\nإذا كنت مستثمرًا أو شركة استثمار دولية ، فاتصل بنا للحصول على عرض تقديمي كامل وخطة عمل جاهزة لهذا المشروع\n* ملاحظة: الصور هي عينة لما يمكنك بناءه على هذه الارض في نفس  المنطقة\n\nأيهم جبارة\nمنزل كريم",
-  "externalID": "4937770",
-  "slug": "build-your-5-star-resort-on-the-beach-palm-jumeirah-4937770",
-  "slug_l1": "build-your-5-star-resort-on-the-beach-palm-jumeirah-4937770",
-  "location": [
-    {
-      "id": 1,
-      "level": 0,
-      "externalID": "5001",
-      "name": "UAE",
-      "name_l1": "الإمارات",
-      "slug": "/uae",
-      "slug_l1": "/uae"
-    },
-    {
-      "id": 2,
-      "level": 1,
-      "externalID": "5002",
-      "name": "Dubai",
-      "name_l1": "دبي",
-      "slug": "/dubai",
-      "slug_l1": "/dubai"
-    },
-    {
-      "id": 14,
-      "level": 2,
-      "externalID": "5460",
-      "name": "Palm Jumeirah",
-      "name_l1": "نخلة جميرا",
-      "slug": "/dubai/palm-jumeirah",
-      "slug_l1": "/dubai/palm-jumeirah"
-    },
-    {
-      "id": 285,
-      "level": 3,
-      "externalID": "8902",
-      "name": "The Crescent",
-      "name_l1": "ذا كريسنت",
-      "slug": "/dubai/palm-jumeirah/the-crescent",
-      "slug_l1": "/dubai/palm-jumeirah/the-crescent"
-    }
-  ],
-  "category": [
-    {
-      "id": 1,
-      "level": 0,
-      "externalID": "1",
-      "name": "Residential",
-      "name_l1": "سكني",
-      "slug": "residential",
-      "slug_l1": "residential",
-      "nameSingular": "Residential",
-      "nameSingular_l1": "سكني"
-    },
-    {
-      "id": 11,
-      "level": 1,
-      "externalID": "14",
-      "name": "Plots",
-      "name_l1": "اراضي سكنية",
-      "slug": "residential-plots",
-      "slug_l1": "residential-plots",
-      "nameSingular": "Plot",
-      "nameSingular_l1": "ارض سكنية"
-    }
-  ],
-  "createdAt": 1609632442,
-  "approvedAt": 1609632442,
-  "updatedAt": 1632407610,
-  "touchedAt": 1634223111.30168,
-  "reactivatedAt": 1609632442,
-  "rooms": 0,
-  "baths": 0,
-  "area": 56670.854400000004,
-  "score": 100,
-  "score_l1": 100,
-  "coverPhoto": {
-    "id": 110798997,
-    "externalID": "103391151",
-    "title": "Palm Jumeirah",
-    "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/110798997/d9446cee36ba4f839c8fedd0e0b52208",
-    "orderIndex": 0,
-    "nimaScore": 5.999995438928998,
-    "main": true
-  },
-  "photoCount": 3,
-  "videoCount": 0,
-  "panoramaCount": 0,
-  "photos": [
-    {
-      "id": 110798997,
-      "externalID": "103391151",
-      "title": "Palm Jumeirah",
-      "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/110798997/d9446cee36ba4f839c8fedd0e0b52208",
-      "orderIndex": 0,
-      "nimaScore": 5.999995438928998
-    },
-    {
-      "id": 110799000,
-      "externalID": "103391152",
-      "title": "Build your 5 Star Resort on the Beach",
-      "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/110799000/13c5ddeb3710480ab040480678519575",
-      "orderIndex": 1,
-      "nimaScore": 5.969393613838337
-    },
-    {
-      "id": 110799002,
-      "externalID": "103391153",
-      "title": "Palm Jumeirah",
-      "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/110799002/8ab6592e4ea7409fb05af756b7b80a03",
-      "orderIndex": 2,
-      "nimaScore": 5.995129640790738
-    }
-  ],
-  "floorPlans": [],
-  "videos": [],
-  "panoramas": [],
-  "amenities": [],
-  "phoneNumber": {
-    "mobile": "+971585768009",
-    "phone": "+97143433992",
-    "whatsapp": "971585768009",
-    "proxyMobile": "+971522794094",
-    "phoneNumbers": [
-      "+97143433992"
-    ],
-    "mobileNumbers": [
-      "+971585768009"
-    ]
-  },
-  "contactName": "Ayham Jbara",
-  "agency": {
-    "id": 7053698,
-    "objectID": 7053698,
-    "name": "Manzel Kareem Real Estate",
-    "name_l1": "منزل كريم للعقارات",
-    "externalID": "8055",
-    "product": "premium",
-    "productScore": 2,
-    "licenses": [
-      {
-        "number": "12938",
-        "authority": "RERA"
-      },
-      {
-        "number": "707807",
-        "authority": "DED"
-      }
-    ],
-    "logo": {
-      "id": 27681814,
-      "url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/27681814/9c7b944fa4344803a4cc318dd6160c78"
-    },
-    "slug": "manzel-kareem-real-estate-8055",
-    "slug_l1": "manzel-kareem-real-estate-8055",
-    "tier": 4
-  },
-  "active": false,
-  "hasExactGeography": true,
-  "verification": {
-    "status": "unverified",
-    "type": null,
-    "eligible": false,
-    "comment": null,
-    "updatedAt": 1609631099.23548,
-    "verifiedAt": null,
-    "visitedAt": null
-  },
-  "isVerified": false,
-  "completionStatus": "completed",
-  "randBoostScore": 18,
-  "randBoostScore_l1": 18,
-  "furnishingStatus": null,
-  "extraFields": null,
-  "type": "property",
-  "cityLevelScore": 3,
-  "indyScore": 18,
-  "indyScore_l1": 18,
-  "hasMatchingFloorPlans": false
-}
+	id: 1753434,
+	objectID: 1753434,
+	ownerID: 792123,
+	userExternalID: "792123",
+	sourceID: 1,
+	state: "active",
+	geography: { lat: 25.053822, lng: 55.212933 },
+	purpose: "for-rent",
+	price: 7999,
+	product: "hot",
+	productLabel: "default",
+	rentFrequency: "monthly",
+	referenceNumber: "204M",
+	permitNumber: "JUM-EMI-4JLJT",
+	projectNumber: null,
+	title:
+		"BIG OFFER!!! FOR IMMEDIATE BOOKING! AMAZING AND COZY 1 BEDROOM  APARTMENT IN THE HEART OF JVC",
+	title_l1:
+		"BIG OFFER!!! FOR IMMEDIATE BOOKING! AMAZING AND COZY 1 BEDROOM  APARTMENT IN THE HEART OF JVC",
+	title_l2:
+		"BIG OFFER!!! FOR IMMEDIATE BOOKING! AMAZING AND COZY 1 BEDROOM  APARTMENT IN THE HEART OF JVC",
+	description:
+		"Your Keys Holiday Homes would like to present to you a beautiful and cozy 1 bedroom apartment with wifi in the heart of Jumeirah Village Circle, Dubai. This unit is fully equipped with a  large balcony and  swimming pool view. It also comes with a complete kitchen so you can cut down on the costs of eating out in Dubai (which can cost a fortune!). Despite the lower price, you’re not compromising on the amenities. \n" +
+		"\n" +
+		"Located between Sheikh Zayed and the EmiratesRoad, Jumeirah Village Circle boasts a promising location just in the heart of Dubai with its lush landscaping, water areas, parks and green features Jumeirah Village Circle are of most demand in the whole development. \n" +
+		"\n" +
+		"17 mins drive to the beach/Dubai Marina\n" +
+		"20 mins drive to Downtown/Dubai Mall\n" +
+		"Pharmacy and grocery store available on-site. \n" +
+		"\n" +
+		"INCLUSIONS:\n" +
+		"\n" +
+		"All bills ( Dewa, Wifi, AC and Gas)\n" +
+		"Access to a large swimming pool and gym. \n" +
+		"With free covered parking. \n" +
+		"Weekly cleaning with replacing all linens and towels at a charge\n" +
+		"\n" +
+		"Note: No Commission. No Hidden Fees. \n" +
+		"\n" +
+		"Security Deposit : 2,500 AED per stay (cash)\n" +
+		"* Rates vary according to availability and seasons  \n" +
+		"DTCM fees: 10 AED per night\n" +
+		"\n" +
+		"Check-in time: 3:00pm-6:00pm\n" +
+		"Check-out time: By 12 noon\n" +
+		"\n" +
+		"Pre- Payment/ Cancellation Policy-\n" +
+		"In order to confirm Your stay, a deposit of 25% of the total booking must be paid to confirm your booking before check in date. \n" +
+		"This pre- payment is non refundable, based on which we will cancel all inquiries received. \n" +
+		"\n" +
+		"We have the Admin team, Maintenance team and Cleaning team available to help you with your stay be a comfortable one.",
+	description_l1:
+		"Your Keys Holiday Homes would like to present to you a beautiful and cozy 1 bedroom apartment with wifi in the heart of Jumeirah Village Circle, Dubai. This unit is fully equipped with a  large balcony and  swimming pool view. It also comes with a complete kitchen so you can cut down on the costs of eating out in Dubai (which can cost a fortune!). Despite the lower price, you’re not compromising on the amenities. \n" +
+		"\n" +
+		"Located between Sheikh Zayed and the EmiratesRoad, Jumeirah Village Circle boasts a promising location just in the heart of Dubai with its lush landscaping, water areas, parks and green features Jumeirah Village Circle are of most demand in the whole development. \n" +
+		"\n" +
+		"17 mins drive to the beach/Dubai Marina\n" +
+		"20 mins drive to Downtown/Dubai Mall\n" +
+		"Pharmacy and grocery store available on-site. \n" +
+		"\n" +
+		"INCLUSIONS:\n" +
+		"\n" +
+		"All bills ( Dewa, Wifi, AC and Gas)\n" +
+		"Access to a large swimming pool and gym. \n" +
+		"With free covered parking. \n" +
+		"Weekly cleaning with replacing all linens and towels at a charge\n" +
+		"\n" +
+		"Note: No Commission. No Hidden Fees. \n" +
+		"\n" +
+		"Security Deposit : 2,500 AED per stay (cash)\n" +
+		"* Rates vary according to availability and seasons  \n" +
+		"DTCM fees: 10 AED per night\n" +
+		"\n" +
+		"Check-in time: 3:00pm-6:00pm\n" +
+		"Check-out time: By 12 noon\n" +
+		"\n" +
+		"Pre- Payment/ Cancellation Policy-\n" +
+		"In order to confirm Your stay, a deposit of 25% of the total booking must be paid to confirm your booking before check in date. \n" +
+		"This pre- payment is non refundable, based on which we will cancel all inquiries received. \n" +
+		"\n" +
+		"We have the Admin team, Maintenance team and Cleaning team available to help you with your stay be a comfortable one.",
+	description_l2:
+		"Your Keys Holiday Homes would like to present to you a beautiful and cozy 1 bedroom apartment with wifi in the heart of Jumeirah Village Circle, Dubai. This unit is fully equipped with a  large balcony and  swimming pool view. It also comes with a complete kitchen so you can cut down on the costs of eating out in Dubai (which can cost a fortune!). Despite the lower price, you’re not compromising on the amenities. \n" +
+		"\n" +
+		"Located between Sheikh Zayed and the EmiratesRoad, Jumeirah Village Circle boasts a promising location just in the heart of Dubai with its lush landscaping, water areas, parks and green features Jumeirah Village Circle are of most demand in the whole development. \n" +
+		"\n" +
+		"17 mins drive to the beach/Dubai Marina\n" +
+		"20 mins drive to Downtown/Dubai Mall\n" +
+		"Pharmacy and grocery store available on-site. \n" +
+		"\n" +
+		"INCLUSIONS:\n" +
+		"\n" +
+		"All bills ( Dewa, Wifi, AC and Gas)\n" +
+		"Access to a large swimming pool and gym. \n" +
+		"With free covered parking. \n" +
+		"Weekly cleaning with replacing all linens and towels at a charge\n" +
+		"\n" +
+		"Note: No Commission. No Hidden Fees. \n" +
+		"\n" +
+		"Security Deposit : 2,500 AED per stay (cash)\n" +
+		"* Rates vary according to availability and seasons  \n" +
+		"DTCM fees: 10 AED per night\n" +
+		"\n" +
+		"Check-in time: 3:00pm-6:00pm\n" +
+		"Check-out time: By 12 noon\n" +
+		"\n" +
+		"Pre- Payment/ Cancellation Policy-\n" +
+		"In order to confirm Your stay, a deposit of 25% of the total booking must be paid to confirm your booking before check in date. \n" +
+		"This pre- payment is non refundable, based on which we will cancel all inquiries received. \n" +
+		"\n" +
+		"We have the Admin team, Maintenance team and Cleaning team available to help you with your stay be a comfortable one.",
+	externalID: "4594156",
+	slug: "big-offer-for-immediate-booking-amazing-and-cozy-1-bedroom-apartment-in-the-heart-of-jvc-4594156",
+	slug_l1:
+		"big-offer-for-immediate-booking-amazing-and-cozy-1-bedroom-apartment-in-the-heart-of-jvc-4594156",
+	slug_l2:
+		"big-offer-for-immediate-booking-amazing-and-cozy-1-bedroom-apartment-in-the-heart-of-jvc-4594156",
+	location: [
+		{
+			id: 1,
+			level: 0,
+			externalID: "5001",
+			name: "UAE",
+			name_l1: "الإمارات",
+			name_l2: "UAE",
+			slug: "/uae",
+			slug_l1: "/uae",
+			slug_l2: "/uae",
+		},
+		{
+			id: 2,
+			level: 1,
+			externalID: "5002",
+			name: "Dubai",
+			name_l1: "دبي",
+			name_l2: "Dubai",
+			slug: "/dubai",
+			slug_l1: "/dubai",
+			slug_l2: "/dubai",
+		},
+		{
+			id: 59,
+			level: 2,
+			externalID: "5416",
+			name: "Jumeirah Village Circle (JVC)",
+			name_l1: "قرية جميرا الدائرية",
+			name_l2: "Jumeirah Village Circle (JVC)",
+			slug: "/dubai/jumeirah-village-circle-jvc",
+			slug_l1: "/dubai/jumeirah-village-circle-jvc",
+			slug_l2: "/dubai/jumeirah-village-circle-jvc",
+			type: "neighbourhood",
+		},
+		{
+			id: 1881,
+			level: 3,
+			externalID: "9536",
+			name: "JVC District 12",
+			name_l1: "الضاحية 12",
+			name_l2: "JVC District 12",
+			slug: "/dubai/jumeirah-village-circle-jvc/jvc-district-12",
+			slug_l1: "/dubai/jumeirah-village-circle-jvc/jvc-district-12",
+			slug_l2: "/dubai/jumeirah-village-circle-jvc/jvc-district-12",
+			type: "neighbourhood",
+		},
+		{
+			id: 717,
+			level: 4,
+			externalID: "5422",
+			name: "Emirates Gardens",
+			name_l1: "حدائق الإمارات",
+			name_l2: "Emirates Gardens",
+			slug: "/dubai/jumeirah-village-circle-jvc/jvc-district-12/emirates-gardens",
+			slug_l1:
+				"/dubai/jumeirah-village-circle-jvc/jvc-district-12/emirates-gardens",
+			slug_l2:
+				"/dubai/jumeirah-village-circle-jvc/jvc-district-12/emirates-gardens",
+		},
+	],
+	category: [
+		{
+			id: 1,
+			level: 0,
+			externalID: "1",
+			name: "Residential",
+			name_l1: "سكني",
+			name_l2: "Residential",
+			slug: "residential",
+			slug_l1: "residential",
+			slug_l2: "residential",
+			nameSingular: "Residential",
+			nameSingular_l1: "سكني",
+			nameSingular_l2: "Residential",
+		},
+		{
+			id: 2,
+			level: 1,
+			externalID: "4",
+			name: "Apartments",
+			name_l1: "شقق",
+			name_l2: "Apartments",
+			slug: "apartments",
+			slug_l1: "apartments",
+			slug_l2: "apartments",
+			nameSingular: "Apartment",
+			nameSingular_l1: "شقة",
+			nameSingular_l2: "Apartment",
+		},
+	],
+	createdAt: 1588844576,
+	approvedAt: 1612524492,
+	updatedAt: 1680662354,
+	touchedAt: 1680662696.62041,
+	reactivatedAt: 1675839532.190267,
+	rooms: 1,
+	baths: 2,
+	area: 91.69530048,
+	score: 75,
+	score_l1: 75,
+	score_l2: 75,
+	coverPhoto: {
+		id: 170790179,
+		externalID: "109566550",
+		title: null,
+		orderIndex: 0,
+		nimaScore: 9.427786638317002,
+		url: "https://bayut-production.s3.eu-central-1.amazonaws.com/image/170790179/31daa80bdfab4d50a13bd51618bffc35",
+		main: true,
+	},
+	photoCount: 20,
+	videoCount: 0,
+	panoramaCount: 0,
+	photos: [
+		{
+			id: 170790179,
+			externalID: "109566550",
+			title: null,
+			orderIndex: 0,
+			nimaScore: 9.427786638317002,
+			url: "https://bayut-production.s3.eu-central-1.amazonaws.com/image/170790179/31daa80bdfab4d50a13bd51618bffc35",
+		},
+		{
+			id: 170790211,
+			externalID: "109566557",
+			title: null,
+			orderIndex: 1,
+			nimaScore: 9.32134506072822,
+			url: "https://bayut-production.s3.eu-central-1.amazonaws.com/image/170790211/7f71a54661bf4a389ccd3e38c766c5d6",
+		},
+		{
+			id: 170790137,
+			externalID: "97202146",
+			title: null,
+			orderIndex: 2,
+			nimaScore: 8.875090291231857,
+			url: "https://bayut-production.s3.eu-central-1.amazonaws.com/image/170790137/6195f276569c4784afaec8e0ec7ce525",
+		},
+		{
+			id: 170790143,
+			externalID: "97202149",
+			title: null,
+			orderIndex: 3,
+			nimaScore: 6.004276057113003,
+			url: "https://bayut-production.s3.eu-central-1.amazonaws.com/image/170790143/21c9faad2ee54d93982eec9f2181860c",
+		},
+		{
+			id: 170790156,
+			externalID: "97202153",
+			title: null,
+			orderIndex: 4,
+			nimaScore: 8.529594768220704,
+			url: "https://bayut-production.s3.eu-central-1.amazonaws.com/image/170790156/01ef540f793b443589b7fecb72ba01f7",
+		},
+		{
+			id: 170790160,
+			externalID: "109566547",
+			title: null,
+			orderIndex: 5,
+			nimaScore: 9.288989921886014,
+			url: "https://bayut-production.s3.eu-central-1.amazonaws.com/image/170790160/34b75778c4d247d4b694af0aed393bc7",
+		},
+		{
+			id: 170790166,
+			externalID: "109566548",
+			title: null,
+			orderIndex: 6,
+			nimaScore: 8.850961015630219,
+			url: "https://bayut-production.s3.eu-central-1.amazonaws.com/image/170790166/75df2d4807814348821cf0adf204ff4c",
+		},
+		{
+			id: 170790172,
+			externalID: "109566549",
+			title: null,
+			orderIndex: 7,
+			nimaScore: 9.13521199646857,
+			url: "https://bayut-production.s3.eu-central-1.amazonaws.com/image/170790172/744ced3c5d4d4ae788be4c1d4d08fe05",
+		},
+		{
+			id: 170790182,
+			externalID: "109566551",
+			title: null,
+			orderIndex: 8,
+			nimaScore: 9.457002761474428,
+			url: "https://bayut-production.s3.eu-central-1.amazonaws.com/image/170790182/532eae02cb4b4f2a97d821cb643a944b",
+		},
+		{
+			id: 170790184,
+			externalID: "109566552",
+			title: null,
+			orderIndex: 9,
+			nimaScore: 8.59526799667583,
+			url: "https://bayut-production.s3.eu-central-1.amazonaws.com/image/170790184/91ad98ffd1a7423b9c5e450191391db3",
+		},
+		{
+			id: 170790192,
+			externalID: "109566553",
+			title: null,
+			orderIndex: 10,
+			nimaScore: 9.156238581262654,
+			url: "https://bayut-production.s3.eu-central-1.amazonaws.com/image/170790192/b0f3902fe9604695abf5b5fad7ad1330",
+		},
+		{
+			id: 170790196,
+			externalID: "109566554",
+			title: null,
+			orderIndex: 11,
+			nimaScore: 9.845692095565681,
+			url: "https://bayut-production.s3.eu-central-1.amazonaws.com/image/170790196/b8a5d11697c640899ffea87df2046d26",
+		},
+		{
+			id: 170790203,
+			externalID: "109566555",
+			title: null,
+			orderIndex: 12,
+			nimaScore: 9.098130576068797,
+			url: "https://bayut-production.s3.eu-central-1.amazonaws.com/image/170790203/94ddecff7d2f44f68f4fe00a4c237ac9",
+		},
+		{
+			id: 170790208,
+			externalID: "109566556",
+			title: null,
+			orderIndex: 13,
+			nimaScore: 9.894159797676377,
+			url: "https://bayut-production.s3.eu-central-1.amazonaws.com/image/170790208/05c0f03bcb0a4d13979cdf57320da2eb",
+		},
+		{
+			id: 170790213,
+			externalID: "109566558",
+			title: null,
+			orderIndex: 14,
+			nimaScore: 8.054471903783678,
+			url: "https://bayut-production.s3.eu-central-1.amazonaws.com/image/170790213/a72ff737ba264f138f9548ca331337c9",
+		},
+		{
+			id: 170790214,
+			externalID: "109566559",
+			title: null,
+			orderIndex: 15,
+			nimaScore: 9.399196540141798,
+			url: "https://bayut-production.s3.eu-central-1.amazonaws.com/image/170790214/d910fb23b0c54002a6f9d608da49ca4b",
+		},
+		{
+			id: 170790221,
+			externalID: "109566560",
+			title: null,
+			orderIndex: 16,
+			nimaScore: 9.405034181707435,
+			url: "https://bayut-production.s3.eu-central-1.amazonaws.com/image/170790221/c304049b04f74e92b00a9e564f6514be",
+		},
+		{
+			id: 170790225,
+			externalID: "109566561",
+			title: null,
+			orderIndex: 17,
+			nimaScore: 8.89584198501052,
+			url: "https://bayut-production.s3.eu-central-1.amazonaws.com/image/170790225/1ebb877a5fa347c2a198689823660920",
+		},
+		{
+			id: 170790227,
+			externalID: "109566562",
+			title: null,
+			orderIndex: 18,
+			nimaScore: 8.915340239272382,
+			url: "https://bayut-production.s3.eu-central-1.amazonaws.com/image/170790227/c2e160eb519043979be981276d6da6f9",
+		},
+		{
+			id: 170790229,
+			externalID: "109566563",
+			title: null,
+			orderIndex: 19,
+			nimaScore: 9.789558037590304,
+			url: "https://bayut-production.s3.eu-central-1.amazonaws.com/image/170790229/7d8fabccf4a548d6840c0509fa850443",
+		},
+	],
+	floorPlans: [],
+	floorPlan: {
+		id: 3829,
+		typeIdentifier: "type",
+		typeIdentifierValue: "3",
+		images: [[Object]],
+		models: [[Object]],
+	},
+	videos: [],
+	panoramas: [],
+	amenities: [
+		{
+			externalGroupID: 9,
+			groupRank: 1,
+			text: "Features",
+			text_l1: "مزايا",
+			text_l2: "Features",
+			amenities: [
+				{
+					text: "Furnished",
+					text_l1: "مفروشة",
+					text_l2: "Furnished",
+					value: "True",
+					rank: 1,
+					slug: "furnished",
+					format: "checkbox",
+					externalID: 20,
+				},
+				{
+					text: "Centrally Air-Conditioned",
+					text_l1: "نظام تبريد مركزي",
+					text_l2: "Centrally Air-Conditioned",
+					value: "True",
+					rank: 4,
+					slug: "centrally-air-conditioned",
+					format: "checkbox",
+					externalID: 7,
+				},
+				{
+					text: "Double Glazed Windows",
+					text_l1: "نوافذ زجاجية مزدوجة",
+					text_l2: "Double Glazed Windows",
+					value: "True",
+					rank: 6,
+					slug: "double-glazed-windows",
+					format: "checkbox",
+					externalID: 6,
+				},
+			],
+		},
+		{
+			externalGroupID: 5,
+			groupRank: 2,
+			text: "Building",
+			text_l1: "البناء",
+			text_l2: "Building",
+			amenities: [
+				{
+					text: "Balcony or Terrace",
+					text_l1: "شرفة أو تراس",
+					text_l2: "Balcony or Terrace",
+					value: "True",
+					rank: 1,
+					slug: "balcony-or-terrace",
+					format: "checkbox",
+					externalID: 3,
+				},
+				{
+					text: "Lobby in Building",
+					text_l1: "ردهة إستقبال",
+					text_l2: "Lobby in Building",
+					value: "True",
+					rank: 2,
+					slug: "lobby-in-building",
+					format: "checkbox",
+					externalID: 5,
+				},
+				{
+					text: "Elevators in Building",
+					text_l1: "مصاعد",
+					text_l2: "Elevators in Building",
+					value: "3",
+					rank: 3,
+					slug: "elevators-in-building",
+					format: "number",
+					externalID: 16,
+				},
+				{
+					text: "Reception/Waiting Room",
+					text_l1: "غرفة استقبال /انتظار",
+					text_l2: "Reception/Waiting Room",
+					value: "True",
+					rank: 8,
+					slug: "receptionwaiting-room",
+					format: "checkbox",
+					externalID: 41,
+				},
+			],
+		},
+		{
+			externalGroupID: 3,
+			groupRank: 3,
+			text: "Health and Fitness",
+			text_l1: "الصحة و اللياقة",
+			text_l2: "Health and Fitness",
+			amenities: [
+				{
+					text: "Gym or Health Club",
+					text_l1: "صالة رياضية أو نادي صحي",
+					text_l2: "Gym or Health Club",
+					value: "True",
+					rank: 3,
+					slug: "gym-or-health-club",
+					format: "checkbox",
+					externalID: 22,
+				},
+				{
+					text: "Swimming Pool",
+					text_l1: "مسبح",
+					text_l2: "Swimming Pool",
+					value: "True",
+					rank: 6,
+					slug: "swimming-pool",
+					format: "checkbox",
+					externalID: 45,
+				},
+			],
+		},
+		{
+			externalGroupID: 2,
+			groupRank: 4,
+			text: "Recreation and Family",
+			text_l1: "الترفيه والأسرة",
+			text_l2: "Recreation and Family",
+			amenities: [
+				{
+					text: "Kids Play Area",
+					text_l1: "منطقة لعب للأطفال",
+					text_l2: "Kids Play Area",
+					value: "True",
+					rank: 3,
+					slug: "kids-play-area",
+					format: "checkbox",
+					externalID: 34,
+				},
+				{
+					text: "Lawn or Garden",
+					text_l1: "حديقة",
+					text_l2: "Lawn or Garden",
+					value: "True",
+					rank: 5,
+					slug: "lawn-or-garden",
+					format: "checkbox",
+					externalID: 36,
+				},
+			],
+		},
+		{
+			externalGroupID: 10,
+			groupRank: 5,
+			text: "Cleaning and Maintenance",
+			text_l1: "التنظيف والصيانة",
+			text_l2: "Cleaning and Maintenance",
+			amenities: [
+				{
+					text: "Maintenance Staff",
+					text_l1: "خدمات صيانة",
+					text_l2: "Maintenance Staff",
+					value: "True",
+					rank: 2,
+					slug: "maintenance-staff",
+					format: "checkbox",
+					externalID: 61,
+				},
+				{
+					text: "Cleaning Services",
+					text_l1: "خدمات تنظيف",
+					text_l2: "Cleaning Services",
+					value: "True",
+					rank: 3,
+					slug: "cleaning-services",
+					format: "checkbox",
+					externalID: 73,
+				},
+			],
+		},
+		{
+			externalGroupID: 6,
+			groupRank: 6,
+			text: "Business and Security",
+			text_l1: "الأعمال والأمن والحماية",
+			text_l2: "Business and Security",
+			amenities: [
+				{
+					text: "Security Staff",
+					text_l1: "أمن و حماية",
+					text_l2: "Security Staff",
+					value: "True",
+					rank: 3,
+					slug: "security-staff",
+					format: "checkbox",
+					externalID: 62,
+				},
+				{
+					text: "CCTV Security",
+					text_l1: "نظام كاميرات مراقبة",
+					text_l2: "CCTV Security",
+					value: "True",
+					rank: 4,
+					slug: "cctv-security",
+					format: "checkbox",
+					externalID: 63,
+				},
+			],
+		},
+		{
+			externalGroupID: 8,
+			groupRank: 8,
+			text: "Technology",
+			text_l1: "الخدمات التقنية",
+			text_l2: "Technology",
+			amenities: [
+				{
+					text: "Broadband Internet",
+					text_l1: "انترنت واسع النطاق",
+					text_l2: "Broadband Internet",
+					value: "True",
+					rank: 1,
+					slug: "broadband-internet",
+					format: "checkbox",
+					externalID: 26,
+				},
+				{
+					text: "Satellite/Cable TV",
+					text_l1: "كابل قنوات تلفزيونية",
+					text_l2: "Satellite/Cable TV",
+					value: "True",
+					rank: 2,
+					slug: "satellitecable-tv",
+					format: "checkbox",
+					externalID: 27,
+				},
+			],
+		},
+		{
+			externalGroupID: 7,
+			groupRank: 9,
+			text: "Miscellaneous",
+			text_l1: "الخدمات العامة",
+			text_l2: "Miscellaneous",
+			amenities: [
+				{
+					text: "Pet Policy",
+					text_l1: "دخول الحيوانات الأليفة",
+					text_l2: "Pet Policy",
+					value: "Not Allowed",
+					rank: 3,
+					slug: "pet-policy",
+					format: "select",
+					externalID: 21,
+				},
+				{
+					text: "Floor",
+					text_l1: "طابق",
+					text_l2: "Floor",
+					value: "2",
+					rank: 8,
+					slug: "floor",
+					format: "number",
+					externalID: 13,
+				},
+				{
+					text: "Nearby Shopping Malls",
+					text_l1: "مراكز تسوق قريبة",
+					text_l2: "Nearby Shopping Malls",
+					value: "Blue Mart",
+					rank: 12,
+					slug: "nearby-shopping-malls",
+					format: "text",
+					externalID: 57,
+				},
+				{
+					text: "Other Nearby Places",
+					text_l1: "أماكن قريبة أخرى",
+					text_l2: "Other Nearby Places",
+					value: "Garden",
+					rank: 20,
+					slug: "other-nearby-places",
+					format: "text",
+					externalID: 60,
+				},
+				{
+					text: "View",
+					text_l1: "مطل",
+					text_l2: "View",
+					value: "Swimming Pool",
+					rank: 22,
+					slug: "view",
+					format: "text",
+					externalID: 2,
+				},
+			],
+		},
+		{
+			externalGroupID: 9,
+			groupRank: 1,
+			text: "Features",
+			text_l1: "مزايا",
+			text_l2: "Features",
+			amenities: [
+				{
+					text: "Furnished",
+					text_l1: "مفروشة",
+					text_l2: "Furnished",
+					value: "True",
+					rank: 1,
+					slug: "furnished",
+					format: "checkbox",
+					externalID: 20,
+				},
+				{
+					text: "Centrally Air-Conditioned",
+					text_l1: "نظام تبريد مركزي",
+					text_l2: "Centrally Air-Conditioned",
+					value: "True",
+					rank: 4,
+					slug: "centrally-air-conditioned",
+					format: "checkbox",
+					externalID: 7,
+				},
+				{
+					text: "Double Glazed Windows",
+					text_l1: "نوافذ زجاجية مزدوجة",
+					text_l2: "Double Glazed Windows",
+					value: "True",
+					rank: 6,
+					slug: "double-glazed-windows",
+					format: "checkbox",
+					externalID: 6,
+				},
+			],
+		},
+		{
+			externalGroupID: 5,
+			groupRank: 2,
+			text: "Building",
+			text_l1: "البناء",
+			text_l2: "Building",
+			amenities: [
+				{
+					text: "Balcony or Terrace",
+					text_l1: "شرفة أو تراس",
+					text_l2: "Balcony or Terrace",
+					value: "True",
+					rank: 1,
+					slug: "balcony-or-terrace",
+					format: "checkbox",
+					externalID: 3,
+				},
+				{
+					text: "Lobby in Building",
+					text_l1: "ردهة إستقبال",
+					text_l2: "Lobby in Building",
+					value: "True",
+					rank: 2,
+					slug: "lobby-in-building",
+					format: "checkbox",
+					externalID: 5,
+				},
+				{
+					text: "Elevators in Building",
+					text_l1: "مصاعد",
+					text_l2: "Elevators in Building",
+					value: "3",
+					rank: 3,
+					slug: "elevators-in-building",
+					format: "number",
+					externalID: 16,
+				},
+				{
+					text: "Reception/Waiting Room",
+					text_l1: "غرفة استقبال /انتظار",
+					text_l2: "Reception/Waiting Room",
+					value: "True",
+					rank: 8,
+					slug: "receptionwaiting-room",
+					format: "checkbox",
+					externalID: 41,
+				},
+			],
+		},
+		{
+			externalGroupID: 3,
+			groupRank: 3,
+			text: "Health and Fitness",
+			text_l1: "الصحة و اللياقة",
+			text_l2: "Health and Fitness",
+			amenities: [
+				{
+					text: "Gym or Health Club",
+					text_l1: "صالة رياضية أو نادي صحي",
+					text_l2: "Gym or Health Club",
+					value: "True",
+					rank: 3,
+					slug: "gym-or-health-club",
+					format: "checkbox",
+					externalID: 22,
+				},
+				{
+					text: "Swimming Pool",
+					text_l1: "مسبح",
+					text_l2: "Swimming Pool",
+					value: "True",
+					rank: 6,
+					slug: "swimming-pool",
+					format: "checkbox",
+					externalID: 45,
+				},
+			],
+		},
+		{
+			externalGroupID: 2,
+			groupRank: 4,
+			text: "Recreation and Family",
+			text_l1: "الترفيه والأسرة",
+			text_l2: "Recreation and Family",
+			amenities: [
+				{
+					text: "Kids Play Area",
+					text_l1: "منطقة لعب للأطفال",
+					text_l2: "Kids Play Area",
+					value: "True",
+					rank: 3,
+					slug: "kids-play-area",
+					format: "checkbox",
+					externalID: 34,
+				},
+				{
+					text: "Lawn or Garden",
+					text_l1: "حديقة",
+					text_l2: "Lawn or Garden",
+					value: "True",
+					rank: 5,
+					slug: "lawn-or-garden",
+					format: "checkbox",
+					externalID: 36,
+				},
+			],
+		},
+		{
+			externalGroupID: 10,
+			groupRank: 5,
+			text: "Cleaning and Maintenance",
+			text_l1: "التنظيف والصيانة",
+			text_l2: "Cleaning and Maintenance",
+			amenities: [
+				{
+					text: "Maintenance Staff",
+					text_l1: "خدمات صيانة",
+					text_l2: "Maintenance Staff",
+					value: "True",
+					rank: 2,
+					slug: "maintenance-staff",
+					format: "checkbox",
+					externalID: 61,
+				},
+				{
+					text: "Cleaning Services",
+					text_l1: "خدمات تنظيف",
+					text_l2: "Cleaning Services",
+					value: "True",
+					rank: 3,
+					slug: "cleaning-services",
+					format: "checkbox",
+					externalID: 73,
+				},
+			],
+		},
+		{
+			externalGroupID: 6,
+			groupRank: 6,
+			text: "Business and Security",
+			text_l1: "الأعمال والأمن والحماية",
+			text_l2: "Business and Security",
+			amenities: [
+				{
+					text: "Security Staff",
+					text_l1: "أمن و حماية",
+					text_l2: "Security Staff",
+					value: "True",
+					rank: 3,
+					slug: "security-staff",
+					format: "checkbox",
+					externalID: 62,
+				},
+				{
+					text: "CCTV Security",
+					text_l1: "نظام كاميرات مراقبة",
+					text_l2: "CCTV Security",
+					value: "True",
+					rank: 4,
+					slug: "cctv-security",
+					format: "checkbox",
+					externalID: 63,
+				},
+			],
+		},
+		{
+			externalGroupID: 8,
+			groupRank: 8,
+			text: "Technology",
+			text_l1: "الخدمات التقنية",
+			text_l2: "Technology",
+			amenities: [
+				{
+					text: "Broadband Internet",
+					text_l1: "انترنت واسع النطاق",
+					text_l2: "Broadband Internet",
+					value: "True",
+					rank: 1,
+					slug: "broadband-internet",
+					format: "checkbox",
+					externalID: 26,
+				},
+				{
+					text: "Satellite/Cable TV",
+					text_l1: "كابل قنوات تلفزيونية",
+					text_l2: "Satellite/Cable TV",
+					value: "True",
+					rank: 2,
+					slug: "satellitecable-tv",
+					format: "checkbox",
+					externalID: 27,
+				},
+			],
+		},
+		{
+			externalGroupID: 7,
+			groupRank: 9,
+			text: "Miscellaneous",
+			text_l1: "الخدمات العامة",
+			text_l2: "Miscellaneous",
+			amenities: [
+				{
+					text: "Pet Policy",
+					text_l1: "دخول الحيوانات الأليفة",
+					text_l2: "Pet Policy",
+					value: "Not Allowed",
+					rank: 3,
+					slug: "pet-policy",
+					format: "select",
+					externalID: 21,
+				},
+				{
+					text: "Floor",
+					text_l1: "طابق",
+					text_l2: "Floor",
+					value: "2",
+					rank: 8,
+					slug: "floor",
+					format: "number",
+					externalID: 13,
+				},
+				{
+					text: "Nearby Shopping Malls",
+					text_l1: "مراكز تسوق قريبة",
+					text_l2: "Nearby Shopping Malls",
+					value: "Blue Mart",
+					rank: 12,
+					slug: "nearby-shopping-malls",
+					format: "text",
+					externalID: 57,
+				},
+				{
+					text: "Other Nearby Places",
+					text_l1: "أماكن قريبة أخرى",
+					text_l2: "Other Nearby Places",
+					value: "Garden",
+					rank: 20,
+					slug: "other-nearby-places",
+					format: "text",
+					externalID: 60,
+				},
+				{
+					text: "View",
+					text_l1: "مطل",
+					text_l2: "View",
+					value: "Swimming Pool",
+					rank: 22,
+					slug: "view",
+					format: "text",
+					externalID: 2,
+				},
+			],
+		},
+	],
+	phoneNumber: {
+		mobile: "+971589159379",
+		phone: "+97143388004",
+		whatsapp: "971545695868",
+		phoneNumbers: ["+97143388004"],
+		mobileNumbers: ["+971589159379"],
+	},
+	contactName: "Ahsan Zain Eddin",
+	agency: {
+		id: 29551757,
+		objectID: 29551757,
+		name: "Your Keys Holiday Homes Rental LLC",
+		name_l1: "يور كيز هوليداي هومز رينتال",
+		name_l2: "Your Keys Holiday Homes Rental LLC",
+		externalID: "9290",
+		product: "premium",
+		productScore: 2,
+		licenses: [[Object]],
+		logo: {
+			id: 83780295,
+			url: "https://bayut-production.s3.eu-central-1.amazonaws.com/image/83780295/40f206ab5d1c4021832a1ee8ad194b55",
+		},
+		slug: "your-keys-holiday-homes-rental-llc-9290",
+		slug_l1: "your-keys-holiday-homes-rental-llc-9290",
+		slug_l2: "your-keys-holiday-homes-rental-llc-9290",
+		tr: 3,
+		tier: 3,
+		roles: [],
+		active: true,
+		createdAt: "2019-12-30T06:02:03.954644+00:00",
+		commercialNumber: null,
+		shortNumber: null,
+	},
+	active: true,
+	hasExactGeography: true,
+	verification: {
+		status: "unverified",
+		type: "manual",
+		eligible: true,
+		comment: null,
+		updatedAt: 1644315346.494426,
+		verifiedAt: 1667194187.912665,
+		visitedAt: null,
+	},
+	isVerified: false,
+	completionStatus: "completed",
+	occupancyStatus: "vacant",
+	randBoostScore: 714,
+	randBoostScore_l1: 714,
+	randBoostScore_l2: 458,
+	furnishingStatus: "furnished",
+	extraFields: {
+		dldBuildingNK: "tabu+ejari-259784",
+		dldPropertySK: "dld|mea|ae|tabu+ejari-259828",
+		hasRentTransactions: true,
+		hasSaleTransactions: true,
+	},
+	type: "property",
+	cityLevelScore: 1,
+	indyScore: 562,
+	indyScore_l1: 562,
+	indyScore_l2: 361,
+	hasMatchingFloorPlans: true,
+	hidePrice: false,
+	locationPurposeTier: 1,
+};
