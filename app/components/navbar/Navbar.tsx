@@ -11,7 +11,7 @@ const Navbar = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
 
 	return (
-		<nav className='w-full max-w-[1100px] h-[60px] mx-auto border-b-2 border-blue-200'>
+		<nav className='w-full max-w-[1100px] h-[60px] mx-auto border-b-2'>
 			<div className='h-full flex flex-col justify-center px-2 lg:px-0'>
 				<div className='f-full flex items-center justify-between text-sky-500'>
 					<div className=' text-lg font-bold cursor-pointer'>
@@ -49,21 +49,30 @@ const Navbar = () => {
 						</button>
 
 						{menuOpen && (
-							<div className='absolute top-10 right-0 text-sky-500 bg-white w-screen h-[calc(100vh-50px)]'>
+							<div className='absolute z-10 top-10 right-0 text-sky-500 bg-white w-screen h-[calc(100vh-50px)]'>
 								<ul className='h-full flex flex-col items-center justify-center gap-4 text-xl'>
-									<li className='w-[145px] cursor-pointer transition-all ease-in hover:text-red-400'>
+									<li
+										className='w-[145px] cursor-pointer transition-all ease-in hover:text-red-400'
+										onClick={() => setMenuOpen(false)}
+									>
 										<Link href='/search' className='flex items-center gap-1'>
 											<FiSearch />
 											Search
 										</Link>
 									</li>
-									<li className='w-[145px] cursor-pointer transition-all ease-in hover:text-red-400'>
+									<li
+										className='w-[145px] cursor-pointer transition-all ease-in hover:text-red-400'
+										onClick={() => setMenuOpen(false)}
+									>
 										<Link href='/' className='flex items-center gap-1'>
 											<FcHome />
 											Home
 										</Link>
 									</li>
-									<li className='w-[145px] cursor-pointer transition-all ease-in  hover:text-red-400'>
+									<li
+										className='w-[145px] cursor-pointer transition-all ease-in  hover:text-red-400'
+										onClick={() => setMenuOpen(false)}
+									>
 										<Link
 											href='/search?purpose=for-sale'
 											className='flex items-center gap-1'
@@ -72,12 +81,15 @@ const Navbar = () => {
 											Buy Property
 										</Link>
 									</li>
-									<li className='w-[145px] cursor-pointer transition-all ease-in  hover:text-red-400'>
+									<li
+										className='w-[145px] cursor-pointer transition-all ease-in hover:text-red-400'
+										onClick={() => setMenuOpen(false)}
+									>
 										<Link
 											href='/search?purpose=for-rent'
 											className='flex items-center gap-1'
 										>
-											<FcAbout />
+											<FiKey />
 											Rent Property
 										</Link>
 									</li>

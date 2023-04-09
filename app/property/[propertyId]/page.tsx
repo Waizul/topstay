@@ -13,8 +13,9 @@ export default async function PropertyDetails({
 	params: { propertyId: string };
 }) {
 	const property = await fetchPropertyDetails(
-		`${baseUrl}/properties/detail?externalID=${params?.propertyId}`
+		`/properties/detail?externalID=${params?.propertyId}`
 	);
+	console.log(params.propertyId, property)
 
 	const {
 		price,
@@ -33,6 +34,7 @@ export default async function PropertyDetails({
 		amenities,
 		photos,
 	} = property;
+ 
   
 	return (
 		<div className="max-w-[1000px] mx-auto">

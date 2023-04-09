@@ -39,6 +39,6 @@ export async function fetchPropertyDetails(url: string) {
 		});
 
 	// const res = propertyDeatils;
-
+  console.log('res',res)
 	return res;
 }

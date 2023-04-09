@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Navbar from "./components/navbar/Navbar";
 import "./globals.css";
 
@@ -16,6 +17,7 @@ export default function RootLayout({
 			<body className="w-full max-w-[1100px] mx-auto">
 				<Navbar />
 				{children}
+				<Footer />
 			</body>
 		</html>
 	);
