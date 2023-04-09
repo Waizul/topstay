@@ -113,3 +113,17 @@ export type PropertyDetailsType = {
 	cityLevelScore: 3;
 	hasMatchingFloorPlans: boolean;
 };
+
+export type SearchParams = {
+	purpose: string;
+	minPrice: string;
+	maxPrice: string;
+	areaMax: string;
+	roomsMin: string;
+	bathsMin: string;
+	sort: string;
+	furnishingStatus: string;
+	rentFrequency: string;
+	categoryExternalID: string;
+	locationExternalIDs: string;
+};

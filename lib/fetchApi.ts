@@ -1,4 +1,4 @@
-import { PropertyDetailsType, PropertyListType} from "@/types";
+import { PropertyDetailsType, PropertyListType } from "@/types";
 import axios from "axios";
 import { data, propertyDeatils } from "../data";
 
@@ -10,31 +10,35 @@ const headers = {
 };
 
 export async function fetchProperties(url: string) {
-	// const res = await axios
-	// 	.get(url, { headers })
-	// 	.then(function ({ data }: { data: PropertyListType }) {
-	// 		return data;
-	// 	})
-	// 	.catch(function (error: any) {
-	// 		console.error(error);
-	// 	});
+	const fullUrl = baseUrl + url;
 
-	const res = data
+	const res = await axios
+		.get(fullUrl, { headers })
+		.then(function ({ data }: { data: PropertyListType }) {
+			return data;
+		})
+		.catch(function (error: any) {
+			console.error(error.response.data);
+		});
 
-	return res?.hits.slice(0, 6);
+	// const res = data;
+
+	return res?.hits;
 }
 
 export async function fetchPropertyDetails(url: string) {
-	// const res = await axios
-	// 	.get(url, { headers })
-	// 	.then(function ({ data }: { data: PropertyDetailsType }) {
-	// 		return data;
-	// 	})
-	// 	.catch(function (error: any) {
-	// 		console.error(error);
-	// 	});
+	const fullUrl = baseUrl + url;
 
-	const res = propertyDeatils;
+	const res = await axios
+		.get(fullUrl, { headers })
+		.then(function ({ data }: { data: PropertyDetailsType }) {
+			return data;
+		})
+		.catch(function (error: any) {
+			console.error(error);
+		});
+
+	// const res = propertyDeatils;
 
 	return res;
 }
