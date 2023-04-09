@@ -29,9 +29,9 @@ export async function fetchProperties(url: string) {
 export async function fetchPropertyDetails(url: string) {
 	const fullUrl = baseUrl + url;
 
-	const res = await axios
+	const res: Promise<PropertyDetailsType> = await axios
 		.get(fullUrl, { headers })
-		.then(function ({ data }: { data: PropertyDetailsType }) {
+		.then(function ({ data }) {
 			return data;
 		})
 		.catch(function (error: any) {
@@ -39,6 +39,6 @@ export async function fetchPropertyDetails(url: string) {
 		});
 
 	// const res = propertyDeatils;
-  console.log('res',res)
+
 	return res;
 }

@@ -29,7 +29,7 @@ const Property = ({ property }: Props) => {
 			<Link href={`/property/${externalID}`}>
 				<div className='flex flex-wrap flex-col justify-start gap-2 cursor-pointer'>
 					<div className="w-[460px] md:w-[380px] lg:w-[340px] h-[220px] relative block">
-						<Image src={coverPhoto.url} fill alt="" />
+						<Image src={coverPhoto.url} fill sizes='(max-width: 500px) 100px,(max-width: 1023px) 400px, 500px' alt="" />
 					</div>
 
 					<div className=''>

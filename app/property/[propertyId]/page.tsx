@@ -15,7 +15,6 @@ export default async function PropertyDetails({
 	const property = await fetchPropertyDetails(
 		`/properties/detail?externalID=${params?.propertyId}`
 	);
-	console.log(params.propertyId, property)
 
 	const {
 		price,
@@ -89,7 +88,7 @@ export default async function PropertyDetails({
 				{amenities.length && <h3 className="font-semibold text-lg">Facilities:</h3>}
 				<div className='flex flex-wrap gap-2'>
 					{amenities?.map((item) =>
-						item?.amenities?.map((amenity) => <p className="font-medium text-sky-500 bg-gray-200 rounded-md py-1 px-2">{amenity.text}</p>)
+						item?.amenities?.map((amenity) => <p className="font-medium text-sky-500 bg-gray-200 rounded-md py-1 px-2" key={amenity.text}>{amenity.text}</p>)
 					)}
 				</div>
 			</div>

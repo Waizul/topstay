@@ -4,22 +4,29 @@ import { useCallback, useState } from "react";
 import { BsFilter } from "react-icons/bs";
 import { filterData, getFiltersValues } from "@/data/filterData";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { SearchParams } from "@/types";
+
+ type FilterValues = {
+	[x: string]: string
+ }
 
 const SearchFilters = () => {
 	const [searchFilters, setSearchFilters] = useState(false);
 	const [combinedSearch, setCombinedSearch] = useState(false);
-
 	const [filters] = useState(filterData);
 	// const [query, setQuery] = useState(searchParams);
 	const pathname = usePathname();
 	const searchParams = useSearchParams();
 	const router = useRouter();
 
-	const searchProperties = (filterValues) => {
+	const searchProperties = (filterValues:FilterValues) => {
 		const values = getFiltersValues(filterValues);
 
 		values.forEach((item) => {
 			if (item.value && filterValues?.[item.name]) {
+				//to add single search param
+				// searchParams[item.name] = item.value;
+
 				const query = createQueryString(item.name, item.value);
 
 				//to get all the filters and apply them together
@@ -46,7 +53,7 @@ const SearchFilters = () => {
 			newParams.set(name, value);
 			return newParams.toString();
 		},
-		[searchParams]
+		[searchParams, combinedSearch]
 	);
 
 	return (

@@ -12,7 +12,7 @@ export type BannerType = {
 };
 
 type CoverPhoto = {
-	title: null;
+	title: string;
 	url: string;
 };
 
@@ -33,6 +33,14 @@ type Category = {
 	name: string;
 	slug: string;
 };
+
+type Amenities = {
+	text: string;
+	amenities: {
+		text: string;
+		value: string;
+	}[];
+}[];
 
 export type PropertyType = {
 	id: number;
@@ -61,7 +69,7 @@ export type PropertyType = {
 	extraFields: Object;
 	type: string;
 	hasTransactionHistory: true;
-	amenities: Array;
+	amenities: Amenities;
 	cityLevelScore: number;
 	hidePrice: false;
 	locationPurposeTier: number;
@@ -97,7 +105,7 @@ export type PropertyDetailsType = {
 	coverPhoto: CoverPhoto;
 	photos: CoverPhoto[];
 	floorPlans: Array;
-	amenities: Array;
+	amenities: Amenities;
 	phoneNumber: {
 		mobile: string;
 		phone: string;
