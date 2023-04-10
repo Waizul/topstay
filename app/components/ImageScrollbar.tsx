@@ -9,12 +9,12 @@ import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 
 const LeftArrow = () => {
 	const { isFirstItemVisible, scrollPrev } = useContext(VisibilityContext);
-
+  console.log('left')
 	return (
 		<div className='flex items-center mr-1'>
 			<FaArrowAltCircleLeft
 				// disabled={isFirstItemVisible}
-				onClick={() => scrollPrev()}
+				onClick={()=>scrollPrev()}
 				className='text-xl cursor-pointer'
 			/>
 		</div>
@@ -23,6 +23,7 @@ const LeftArrow = () => {
 
 const RightArrow = () => {
 	const { isLastItemVisible, scrollNext } = useContext(VisibilityContext);
+  console.log('right')
 
 	return (
 		<div className='flex items-center'>
@@ -40,15 +41,12 @@ const ImageScrollbar = ({ photos }: {photos:CoverPhoto[]}) => {
 			<ScrollMenu
 				LeftArrow={LeftArrow}
 				RightArrow={RightArrow}
-				options={{
-					threshold: [0.9],
-					throttle: 0,
-				}}
 			>
-				{photos.map((item) => (
+				{photos?.map((item) => (
 					<div
 						key={item.title}
-						itemID={item.title}
+						//@ts-ignore
+						itemId={item.id}
 						className='w-[96vw] md:w-[96vw] lg:w-[75vw] h-[50vh] md:h-[82vh] lg:h-[82vh] p-1 overflow-hidden relative'
 					>
 						<Image

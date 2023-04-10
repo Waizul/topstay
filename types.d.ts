@@ -12,7 +12,8 @@ export type BannerType = {
 };
 
 type CoverPhoto = {
-	title: string;
+	id: number;
+	title: null;
 	url: string;
 };
 
